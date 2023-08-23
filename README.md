@@ -67,3 +67,4 @@ This project is licensed under the [GNU Affero General Public License](LICENSE).
 If you have any questions or suggestions, feel free to contact us at [grenkaukrainefromukraine@gmail.com](mailto:grenkaukrainefromukraine@gmail.com) or through the GitHub repository.
 
 Thank you for using G-RPC!
+
