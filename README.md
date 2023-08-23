@@ -1,11 +1,9 @@
 # G-RPC
 
-![Project Preview](path_to_your_project_preview_image.png)
-
-[![GitHub License](https://img.shields.io/github/license/your_username/G-RPC)](LICENSE)
-[![GitHub Release](https://img.shields.io/github/v/release/your_username/G-RPC)](https://github.com/your_username/G-RPC/releases)
-[![Discord](https://img.shields.io/discord/your_discord_server_id)](https://discord.gg/your_discord_invite_link)
+[![GitHub License](https://img.shields.io/github/license/GrenkaUkraine/G-RPC)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/GrenkaUkraine/G-RPC)](https://github.com/your_username/G-RPC/releases)
 ![Language](https://img.shields.io/badge/language-C%23-blue)
+![Framework](https://img.shields.io/badge/framework-WPF-blueviolet)
 
 Welcome to G-RPC, a program that makes it easy to create Discord Rich Presence (RPC) statuses. With this program, you can create and customize your RPC status in just a few minutes.
 
@@ -41,7 +39,7 @@ git clone https://github.com/your_username/G-RPC.git
 
 ### Option 2: Download the Release
 
-1. Go to the [Releases](https://github.com/your_username/G-RPC/releases) section on GitHub.
+1. Go to the [Releases](https://github.com/GrenkaUkraine/G-RPC/releases) section on GitHub.
 2. Download the latest release ZIP file.
 3. Extract the contents of the ZIP file.
 
@@ -62,12 +60,10 @@ git clone https://github.com/your_username/G-RPC.git
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU Affero General Public License](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact us at [your_email@example.com](mailto:your_email@example.com) or through the GitHub repository.
+If you have any questions or suggestions, feel free to contact us at [grenkaukrainefromukraine@gmail.com](mailto:grenkaukrainefromukraine@gmail.com) or through the GitHub repository.
 
 Thank you for using G-RPC!
-
-
