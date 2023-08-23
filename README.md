@@ -1,7 +1,7 @@
 # G-RPC
 
 [![GitHub License](https://img.shields.io/github/license/GrenkaUkraine/G-RPC)](LICENSE)
-[![GitHub Release](https://img.shields.io/github/v/release/GrenkaUkraine/G-RPC)](https://github.com/your_username/G-RPC/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/GrenkaUkraine/G-RPC)](https://github.com/GrenkaUkraine/G-RPC/releases)
 ![Language](https://img.shields.io/badge/language-C%23-blue)
 ![Framework](https://img.shields.io/badge/framework-WPF-blueviolet)
 
@@ -32,7 +32,7 @@ To get started with G-RPC, you have two options:
 
 1. Clone this repository to your local machine:
 ```
-git clone https://github.com/your_username/G-RPC.git
+git clone https://github.com/GrenkaUkraine/G-RPC.git
 ```
 2. Open the solution in Visual Studio.
 3. Build the project to generate the executable file.
