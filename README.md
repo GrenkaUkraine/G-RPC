@@ -4,6 +4,7 @@
 [![GitHub Release](https://img.shields.io/github/v/release/GrenkaUkraine/G-RPC)](https://github.com/GrenkaUkraine/G-RPC/releases)
 ![Language](https://img.shields.io/badge/language-C%23-blue)
 ![Framework](https://img.shields.io/badge/framework-WPF-blueviolet)
+[![Discord](https://img.shields.io/discord/1079380365526974474)](https://discord.gg/TTskdX3Z7F)
 
 Welcome to G-RPC, a program that makes it easy to create Discord Rich Presence (RPC) statuses. With this program, you can create and customize your RPC status in just a few minutes.
 
@@ -64,7 +65,6 @@ This project is licensed under the [GNU Affero General Public License](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact us at [grenkaukrainefromukraine@gmail.com](mailto:grenkaukrainefromukraine@gmail.com) or through the GitHub repository.
+If you have any questions or suggestions, feel free to contact us at [grenkaukrainefromukraine@gmail.com](mailto:grenkaukrainefromukraine@gmail.com?body=%23%20From%20GitHub) or through the GitHub repository.
 
 Thank you for using G-RPC!
-
