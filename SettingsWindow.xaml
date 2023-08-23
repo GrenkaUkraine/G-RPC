@@ -1,0 +1,23 @@
+﻿<Window x:Class="G_RPC.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:G_RPC"
+        mc:Ignorable="d"
+        Title="G-RPC Settings" Height="200" Width="200"
+        Background="{StaticResource background_white}"
+        FontWeight="Medium"
+        Foreground="{StaticResource component_white}"
+        Loaded="Window_Loaded"
+        ResizeMode="NoResize"
+        Closing="Window_Closing"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+        <StackPanel VerticalAlignment="Top" Orientation="Horizontal" Margin="10">
+            <CheckBox x:Name="checkbox_tray" HorizontalAlignment="Left" IsChecked="False" Margin="0,0,5,0"/>
+            <TextBlock VerticalAlignment="Center" Text="Tray on closing"/>
+        </StackPanel>
+    </Grid>
+</Window>
