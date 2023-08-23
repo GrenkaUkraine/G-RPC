@@ -1,6 +1,6 @@
 # G-RPC
 
-[![GitHub License](https://img.shields.io/github/license/GrenkaUkraine/G-RPC)](LICENSE)
+[![GitHub License](https://img.shields.io/github/license/GrenkaUkraine/G-RPC)](LICENSE.txt)
 [![GitHub Release](https://img.shields.io/github/v/release/GrenkaUkraine/G-RPC)](https://github.com/GrenkaUkraine/G-RPC/releases)
 ![Language](https://img.shields.io/badge/language-C%23-blue)
 ![Framework](https://img.shields.io/badge/framework-WPF-blueviolet)
