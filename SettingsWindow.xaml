@@ -13,6 +13,7 @@
         ResizeMode="NoResize"
         Closing="Window_Closing"
         WindowStartupLocation="CenterScreen"
+        Icon="Resources/Icons/G-RPC-icon.ico"
         >
     <Grid>
         <StackPanel VerticalAlignment="Top" Orientation="Horizontal" Margin="10">

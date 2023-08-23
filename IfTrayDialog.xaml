@@ -13,6 +13,7 @@
         ResizeMode="NoResize"
         WindowStyle="ToolWindow"
         WindowStartupLocation="CenterScreen"
+        Icon="Resources/Icons/G-RPC-icon.ico"
         >
 
     <Window.Resources>

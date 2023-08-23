@@ -76,10 +76,6 @@
     <Compile Include="SettingsWindow.xaml.cs">
       <DependentUpon>SettingsWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="ButtonEditWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="IfTrayDialog.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -91,9 +87,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ButtonEditWindow.xaml.cs">
-      <DependentUpon>ButtonEditWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="cs\DarkenColorConverter.cs" />
     <Compile Include="cs\DiscordRPC.cs" />
@@ -135,9 +128,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="noimage.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Icons\G-RPC-icon.ico" />

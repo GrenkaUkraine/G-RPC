@@ -102,9 +102,6 @@ namespace G_RPC
         private void LoadSettings()
         {
             var settings = Properties.Settings.Default;
-            InitializeButton();
-            ChangeButtonName(false, settings.button1_text);
-            ChangeButtonName(true, settings.button2_text);
             textblock_appid.Text = NoneString(settings.app_id);
             textblock_large_name.Text = NoneString(settings.img_large_name);
             textblock_large_text.Text = NoneString(settings.img_large_text);
@@ -149,104 +146,6 @@ namespace G_RPC
                 {
                     return text;
                 }
-            }
-        }
-        #endregion
-        #region Buttons
-        private void button_add_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        {
-            if (Properties.Settings.Default.buttons_count < 2)
-            {
-                Properties.Settings.Default.buttons_count++;
-                AddButton();
-            }
-        }
-
-        private void button_remove_Click(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        {
-            if (Properties.Settings.Default.buttons_count > 0)
-            {
-                Properties.Settings.Default.buttons_count--;
-                RemoveButton();
-            }
-        }
-
-        private void AddButton()
-        {
-            if (Properties.Settings.Default.buttons_count == 1)
-            {
-                button_1.Visibility = Visibility.Visible;
-                button_ui_1.Visibility = Visibility.Visible;
-            }
-            else if (Properties.Settings.Default.buttons_count == 2)
-            {
-                button_2.Visibility = Visibility.Visible;
-                button_ui_2.Visibility = Visibility.Visible;
-            }
-        }
-
-        private void RemoveButton()
-        {
-            if (Properties.Settings.Default.buttons_count == 1)
-            {
-                button_2.Visibility = Visibility.Collapsed;
-                button_ui_2.Visibility = Visibility.Collapsed;
-            }
-            else if (Properties.Settings.Default.buttons_count == 0)
-            {
-                button_1.Visibility = Visibility.Collapsed;
-                button_ui_1.Visibility = Visibility.Collapsed;
-            }
-        }
-
-        private void InitializeButton()
-        {
-            if (Properties.Settings.Default.buttons_count == 1)
-            {
-                button_1.Visibility = Visibility.Visible;
-                button_ui_1.Visibility = Visibility.Visible;
-            }
-            else if (Properties.Settings.Default.buttons_count == 2)
-            {
-                button_1.Visibility = Visibility.Visible;
-                button_ui_1.Visibility = Visibility.Visible;
-                button_2.Visibility = Visibility.Visible;
-                button_ui_2.Visibility = Visibility.Visible;
-            }
-        }
-        private void ChangeButtonName(bool button, string name)
-        {
-            if (button)
-            {
-                button_2.Content = name;
-                button_ui_2.Content = name;
-            }
-            else
-            {
-                button_1.Content = name;
-                button_ui_1.Content = name;
-            }
-        }
-
-        private void button_1_Click(object sender, RoutedEventArgs e)
-        {
-            ButtonEditWindow buttonEditWindow = new ButtonEditWindow(false, Properties.Settings.Default.button1_text, Properties.Settings.Default.button1_url);
-            bool result = buttonEditWindow.ShowDialog() ?? false;
-
-            if (result)
-            {
-                ChangeButtonName(false, Properties.Settings.Default.button1_text);
-            }
-        }
-
-        private void button_2_Click(object sender, RoutedEventArgs e)
-        {
-            ButtonEditWindow buttonEditWindow = new ButtonEditWindow(true, Properties.Settings.Default.button2_text, Properties.Settings.Default.button2_url);
-            bool result = buttonEditWindow.ShowDialog() ?? false;
-
-            if (result)
-            {
-                ChangeButtonName(true, Properties.Settings.Default.button1_text);
             }
         }
         #endregion
@@ -303,12 +202,7 @@ namespace G_RPC
                         textblock_large_name.Text,
                         textblock_large_text.Text,
                         textblock_small_name.Text,
-                        textblock_small_text.Text,
-                        Properties.Settings.Default.buttons_count,
-                        NoneString(Properties.Settings.Default.button1_text),
-                        NoneString(Properties.Settings.Default.button1_url),
-                        NoneString(Properties.Settings.Default.button2_text),
-                        NoneString(Properties.Settings.Default.button2_url)
+                        textblock_small_text.Text
                     );
                     button_connect.Content = "Close connection";
                     button_connect.Background = (Brush)System.Windows.Application.Current.Resources["button_default"];

@@ -37,66 +37,6 @@ namespace G_RPC.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Button 1")]
-        public string button1_text {
-            get {
-                return ((string)(this["button1_text"]));
-            }
-            set {
-                this["button1_text"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("none")]
-        public string button1_url {
-            get {
-                return ((string)(this["button1_url"]));
-            }
-            set {
-                this["button1_url"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Button 2")]
-        public string button2_text {
-            get {
-                return ((string)(this["button2_text"]));
-            }
-            set {
-                this["button2_text"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("none")]
-        public string button2_url {
-            get {
-                return ((string)(this["button2_url"]));
-            }
-            set {
-                this["button2_url"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("0")]
-        public int buttons_count {
-            get {
-                return ((int)(this["buttons_count"]));
-            }
-            set {
-                this["buttons_count"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("none")]
         public string img_large_name {
             get {

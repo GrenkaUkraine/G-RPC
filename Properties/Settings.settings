@@ -5,21 +5,6 @@
     <Setting Name="app_id" Type="System.String" Scope="User">
       <Value Profile="(Default)">none</Value>
     </Setting>
-    <Setting Name="button1_text" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Button 1</Value>
-    </Setting>
-    <Setting Name="button1_url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">none</Value>
-    </Setting>
-    <Setting Name="button2_text" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Button 2</Value>
-    </Setting>
-    <Setting Name="button2_url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">none</Value>
-    </Setting>
-    <Setting Name="buttons_count" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">0</Value>
-    </Setting>
     <Setting Name="img_large_name" Type="System.String" Scope="User">
       <Value Profile="(Default)">none</Value>
     </Setting>
